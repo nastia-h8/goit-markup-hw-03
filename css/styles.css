@@ -1,0 +1,211 @@
+:root {
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --tertiary-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --tertiary-background-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* --------- START HEADER --------- */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+.logo-header-color {
+  color: #000000;
+}
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-text-color);
+}
+.active-page {
+  color: var(--accent-text-color);
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-text-color);
+}
+/* --------- END HEADER --------- */
+
+/* --------- START HERO --------- */
+.section-hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--tertiary-text-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-text-color);
+  border-style: none;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+/* --------- END HERO --------- */
+
+/* --------- START SECTION STUDIO ADVANTAGES --------- */
+.description-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* --------- END SECTION STUDIO ADVANTAGES --------- */
+
+/* --------- START SECTION STUDIO ACTIVITIES --------- */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* --------- END SECTION STUDIO ACTIVITIES --------- */
+
+/* --------- START SECTION STUDIO TEAM --------- */
+.section-team {
+  background-color: var(--tertiary-background-color);
+}
+.team-card {
+  background-color: var(--primary-background-color);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* --------- END SECTION STUDIO TEAM --------- */
+
+/* --------- START PAGE PORTFOLIO --------- */
+.radio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--tertiary-background-color);
+  border-style: none;
+  cursor: pointer;
+}
+
+.radio-btn:hover,
+.radio-btn:focus {
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.work-example-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.work-example-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* --------- END PAGE PORTFOLIO --------- */
+
+/* --------- START FOOTER --------- */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.logo-footer-color {
+  color: var(--tertiary-text-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--tertiary-text-color);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* --------- END FOOTER --------- */
