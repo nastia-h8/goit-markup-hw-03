@@ -48,19 +48,44 @@ img {
   height: auto;
 }
 
+/* --------- START COMPONENTS --------- */
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: #188ce8 1px solid; */
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* --------- END COMPONENTS --------- */
 
 /* --------- START HEADER --------- */
 .header {
@@ -142,7 +167,8 @@ img {
 
 /* --------- START HERO --------- */
 .hero-section {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: var(--secondary-background-color);
 }
@@ -184,13 +210,11 @@ img {
 
 .advantages-items {
   display: flex;
-  margin-top: -30px;
   margin-left: -30px;
 }
 
 .advantages-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
-  margin-top: 30px;
   margin-left: 30px;
 }
 
@@ -212,16 +236,9 @@ img {
 /* --------- END SECTION STUDIO ADVANTAGES --------- */
 
 /* --------- START SECTION STUDIO ACTIVITIES --------- */
+
 .activities-section {
-  margin-bottom: 94px;
-}
-.section-title {
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  padding-bottom: 94px;
 }
 
 .activities-items {
